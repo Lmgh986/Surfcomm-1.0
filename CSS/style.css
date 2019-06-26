@@ -4,11 +4,11 @@ body{
     color: rgb(20, 18, 131);
     font-family: 'Noto Serif KR', serif;
 }
+
 .menu{
-    background-image: url(../Img/background1.png);
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    text-align: center;
+    background-image:url(../Img/background1.png);
+    background-size:cover;
+    text-align:center;
   }
 .menu li {
 
@@ -42,7 +42,6 @@ filter:blur(1px);
 .header-content{
 position: absolute;
 z-index: 1;
-top 10%;
 left:50%;
 margin-top: 5px;
 margin-left: -145px;
