@@ -1,5 +1,5 @@
 body{
-    background: rgba(253, 253, 253, 0.966);
+    background: rgba(116, 113, 113, 0.966);
    /* background-image: url(../Img/header.jpg);*/
     background-size:cover;
     margin: 0px;
@@ -8,9 +8,9 @@ body{
 }
 /* ****************** Barra de navegacion *******************/
 .menu{
-    background: rgba(33, 37, 46, 0.842);
-    /*background-image:url(../Img/background1.png);*/
-    background-size:cover;
+    background: rgba(38, 41, 49, 0.842);
+    margin: auto;
+    padding: 2px;
     
   }
  .opciones{
@@ -25,12 +25,12 @@ padding: 10px 10px;
 }
 .menu li a{
 text-decoration: none;
-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
 display: block;
 }
 li a:hover {
 background-color: rgb(98, 98, 104);
-color: rgb(12, 12, 14);
+color: rgb(221, 113, 12);
 }
 .mostrar{
  position: absolute;
@@ -43,8 +43,7 @@ color: rgb(12, 12, 14);
 }
 
 
-
-/* *******************CABECERA**************************** */
+/* *******************CABECERA Pagina Pricipal**************************** */
 .header::after {
     content: '';
     height: 40vh;
@@ -83,8 +82,9 @@ transition: all 1000ms
 }
 .title{
     font-family: 'Alike', serif;
-    color: rgb(255, 255, 255);
+    color: rgb(12, 11, 11);
     font-size: 2rem;
+    text-align: center;
     margin:0;
 }
 
@@ -95,6 +95,29 @@ transition: all 1000ms
     margin:0;
 }
 
+.title-intro{
+    font-family: 'Alike', serif;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    text-align: center;
+   }
+.Parrafo-into{
+    text-align: justify;
+    font-size: 1.2rem;
+    color: aliceblue
+}
+
+.grid-into{
+  
+    border: 1px solid white;
+    margin: 20px;
+    text-align: left;
+    padding: 100px;
+    background-image: url(../Img/Fondo1.jpg);
+    background-size:cover;
+    color: white;
+}
+    /*background-attachment: fixed;*/
 
 .text{
  line-height: 1.7;
@@ -105,8 +128,8 @@ transition: all 1000ms
     margin:auto;
     overflow: hidden;
     padding: 4rem 1rem;
+   
 }
-
 .grid-4{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -128,7 +151,7 @@ grid-gap: 20px;
     color: black;
 }
 .bg-dark{
-    background: #2f2542;
+    background: rgba(33, 37, 46, 0.842);
     color:#fff;
 }
 .servicios {
@@ -136,16 +159,89 @@ grid-gap: 20px;
 }
 
 .footer{
-   background-image: url(../Img/background1.png);
+   background: #f5f5f5;
    background-size: cover;
 }
+/******************************Paginas Secundarias*****************************************/
 
+
+.grid-nosotros{
+  
+    border: 1px solid white;
+    margin: 20px;
+    text-align: left;
+    padding: 150px;
+    background-image: url(../Img/Fondo1.jpg);
+    background-size:cover;
+  
+    /*background-attachment: fixed;*/
+}
+
+.grid-client{
+  
+
+    border: 1px solid white;
+    margin: 8px;
+    text-align: left;
+    padding: 350px;
+    background-image: url(../Img/header.jpg);
+    background-size:cover;
+    color: white;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.title-acerca{
+    font-family: 'Alike', serif;
+    color: rgb(12, 11, 11);
+    font-size: 2rem;
+    text-align: center;
+    margin:10;
+
+}
+
+.nosotros{
+    color: white;
+    text-align: justify;
+    font-size: 19.5px;
+  }
+
+.grid-servicios{
+  
+
+    border: 1px solid white;
+    margin: 10px;
+    text-align: left;
+    padding: 350px;
+    background-image: url(../Img/logo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.title-serv{
+
+    font-family: 'Alike', serif;
+    color: rgb(12, 11, 11);
+    font-size: 2rem;
+    text-align: center;
+    margin:10;
+
+}
+
+
+/*******************************************************************************************/
 
 /* Se agrega un Media Query para ajustar a dispositivos moviles*/
 
 @media( max-width:560px){
 .header::after{
-    height: 50vh;}
+    height: 50vh;
+     
+}
+
 .header-content{
        top:5%;
     margin-top:5px;
