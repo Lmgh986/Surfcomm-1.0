@@ -319,18 +319,18 @@ margin-left: 2rem;
 }
  .menu{
 
-    width: 200rem;
+    width: 55rem;
     margin: auto;
  }
 
  .header::after{
 
-    width: 200rem;
+    width: 55rem;
     margin: auto;
  }
 
  .header:hover{
-    width: 200rem;
+    width: 55rem;
     margin: auto;
 
  }
@@ -345,7 +345,7 @@ margin-left: 2rem;
 }
 
 .grid-2{
-    width: 200rem;
+    width: 55rem;
     margin: auto;
 
 }
