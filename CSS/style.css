@@ -205,16 +205,12 @@ grid-gap: 20px;
 
 .grid-client{
   
+padding: 350px;
+background-image: url(../fotoweb/Clients1.png);
+background-size:cover;
+margin-right: 2rem;
+margin-left: 2rem;
 
-    border: 1px solid white;
-    margin: 8px;
-    text-align: left;
-    padding: 350px;
-    background-image: url(../Img/header.jpg);
-    background-size:cover;
-    color: white;
-    text-align: justify;
-    font-size: 17px;
 }
 
 .title-acerca{
@@ -315,41 +311,43 @@ grid-gap: 20px;
 
 /* Se agrega un Media Query para ajustar a dispositivos moviles*/
 
-@media( max-width:560px){
-.header::after{
-    height: 50vh;
-     
-}
+@media(max-width:560px){
 
-.header-content{
-       top:5%;
-    margin-top:5px;
- }
-.header-content .logo {
- height: 120px;
- width: 120px;
+.video{
+    width: 80%;
+    margin-left: -200 rem;
 }
-.header-content .text{
-    display:none;
-}
+ .menu{
 
-.grid-2, .grid-4 {
-grid-template-columns:1fr;
-}
- .servicios{
-     padding: 1rem 1rem;
+    width: 200rem;
+    margin: auto;
  }
 
-}
-/* Se agrega un Media Query para ajustar a dispositivos moviles
-con pantalla Horiontal*/
-@media(max-height: 500px){
-    .header-content .title, .header-content .text{
-        direction: none;
-    }
-    .header-content{
-        top:0;
-    }
+ .header::after{
 
+    width: 200rem;
+    margin: auto;
+ }
+
+ .header:hover{
+    width: 200rem;
+    margin: auto;
+
+ }
+.grid-into{
+    width: 55rem;
+    height: 20rem;
+    margin: auto;
+}
+.grid-4 {
+    width: 200rem;
+    margin: auto;
+}
+
+.grid-2{
+    width: 200rem;
+    margin: auto;
+
+}
 
 }
