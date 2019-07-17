@@ -75,10 +75,12 @@ width: 300px;
 height: 350px;
 transition: all 1000ms
 }
+/*
 .header-content .logo {
     height: 180px;
     width: 200px;
 }
+*/
 .title{
     font-family: 'Alike', serif;
     color: rgb(12, 11, 11);
@@ -311,43 +313,49 @@ margin-left: 2rem;
 
 /* Se agrega un Media Query para ajustar a dispositivos moviles*/
 
-@media(max-width:560px){
+/*
+@media(max-width:700px){
 
-/*.video{
+.video{
     width: 80%;
     margin-left: -200 rem;
-}*/
+}
  .menu{
 
-    width: 55rem;
+    width: 20rem;
     margin: auto;
  }
 
  .header::after{
 
-    width: 55rem;
-    margin: auto;
+    width: 20rem;
+     
  }
 
  .header:hover{
-    width: 55rem;
+    width: 20rem;
     margin: auto;
 
  }
 .grid-into{
-    width: 55rem;
+    width: 20rem;
     height: 20rem;
     margin: auto;
 }
 .grid-4 {
-    width: 55rem;
+    width: 20rem;
     margin: auto;
 }
 
 .grid-2{
-    width: 55rem;
+    width: 20rem;
     margin: auto;
 
 }
+body{
+
+width: 200rem;
 
 }
+}
+*/
